@@ -1,0 +1,7 @@
+[General]
+Radius=18
+Type=Rounded
+SquareAtScreenEdge=false
+FilterShadow=false
+Whitelist=
+Blacklist=
