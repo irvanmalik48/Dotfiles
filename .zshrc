@@ -1,8 +1,10 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export GPG_TTY=$(tty)
+
 # Path to your oh-my-zsh installation.
-ZSH=/usr/share/oh-my-zsh/
+ZSH=~/.oh-my-zsh/
 ZSH_CUSTOM=~/.oh-my-zsh/custom/
 
 # Set name of the theme to load --- if set to "random", it will
@@ -107,8 +109,6 @@ fi
 
 source $ZSH/oh-my-zsh.sh
 alias cat="bat"
-alias df="duf"
-alias ingfo="neofetch --colors 4 4 4 4 4 7 --ascii_colors 4 4 4 4 4 4"
 alias rmc="rm -rf ~/.cache/*"
 alias yay="paru"
 alias yayin="paru -S"
@@ -116,7 +116,7 @@ alias yayrm="paru -Rnsc"
 alias yayqs="paru -Qs"
 alias yayss="paru -Ss"
 alias yayrc="paru -Scc"
-alias yayrd="paru -Rns $(paru -Qttdq)"
+alias yayrd="paru -Rnsc $(paru -Qttdq)"
 alias gadd="git add"
 alias addall="git add ."
 alias commit="git commit -S -s"
@@ -125,3 +125,7 @@ alias editzsh="nano ~/.zshrc"
 alias checkalias="(cat .zshrc && cat .bashrc) | grep alias"
 alias editgrub="doas nano /etc/default/grub"
 alias kreboot="kquitapp5 plasmashell && kstart5 plasmashell"
+alias server-on="doas systemctl start mariadb httpd"
+alias server-off="doas systemctl stop mariadb httpd"
+alias printer-on="doas systemctl start cups"
+alias printer-off="doas systemctl stop cups"
