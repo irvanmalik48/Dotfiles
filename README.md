@@ -1,5 +1,7 @@
 # My Dotfiles
 
+![ss](https://github.com/irvanmalik48/Dotfiles/blob/master/screenshot/image.png)
+
 Mostly dotfiles that I use as of now.
 
 ## Dependencies
@@ -44,4 +46,4 @@ Mostly dotfiles that I use as of now.
 - bash script for displaying music info as a command output
 - zsh
 
-Clone the repo and copy everything to home directory (except the .git folder).
+Clone the repo and copy everything to home directory (except the .git folder, screenshot folder, and the README file).
