@@ -1,6 +1,6 @@
 # My Dotfiles
 
-![ss](https://github.com/irvanmalik48/Dotfiles/blob/master/screenshot/image.png)
+![ss](https://github.com/irvanmalik48/Dotfiles/blob/master/screenshot/neofetch.png)
 
 Mostly dotfiles that I use as of now.
 
