@@ -1,11 +1,11 @@
+<h1 align="center">My Dotfiles</h1>
+
 <p align="center">
+    <img src="https://github.com/irvanmalik48/Dotfiles/blob/master/screenshot/neofetch.png" alt="Neofetch" align="center"/>
+</p>
 
-# My Dotfiles
-
-![ss](https://github.com/irvanmalik48/Dotfiles/blob/master/screenshot/neofetch.png)
-
-Mostly dotfiles that I use as of now.
-
+<p align="center">
+    Mostly dotfiles that I use as of now.
 </p>
 
 ## Dependencies
