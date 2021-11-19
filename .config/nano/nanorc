@@ -1,3 +1,10 @@
 include "/usr/share/nano/*.nanorc"
 
 set suspendable
+set autoindent
+set minibar
+set minicolor bold,yellow
+set functioncolor bold,blue
+set keycolor bold,green
+set spotlightcolor bold,black,green
+set tabsize 4
