@@ -108,7 +108,7 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
 fi
 
 source $ZSH/oh-my-zsh.sh
-alias cat="bat"
+alias cat="bat --theme Nord"
 alias rmc="rm -rf ~/.cache/*"
 alias yay="paru"
 alias yayin="paru -S"
@@ -129,3 +129,16 @@ alias server-on="doas systemctl start mariadb httpd"
 alias server-off="doas systemctl stop mariadb httpd"
 alias printer-on="doas systemctl start cups"
 alias printer-off="doas systemctl stop cups"
+if [ "$(command -v exa)" ]; then
+    unalias -m 'll'
+    unalias -m 'l'
+    unalias -m 'la'
+    unalias -m 'ls'
+    alias ls='exa -G  --color auto --icons -a -s type'
+    alias ll='exa -l --color always --icons -a -s type'
+fi
+
+
+# BEGIN_KITTY_SHELL_INTEGRATION
+if test -e "/usr/lib/kitty/shell-integration/kitty.zsh"; then source "/usr/lib/kitty/shell-integration/kitty.zsh"; fi
+# END_KITTY_SHELL_INTEGRATION

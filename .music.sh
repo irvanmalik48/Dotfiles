@@ -1,6 +1,6 @@
 #!/bin/bash
 
-player="$(playerctl -a -f '{{playerName}} {{status}}' status | grep Playing | head -n1 | cut -d ' ' -f1)"
+player="$(playerctl -a -f 'audacious {{status}}' status | grep Playing | head -n1 | cut -d ' ' -f1)"
 
 if [[ "$player" ]];
 then
@@ -12,7 +12,7 @@ then
     else
         text="${title}"
     fi
-    (( ${#text} > 120 )) && text="${text:0:117}..."
+    (( ${#text} > 70 )) && text="${text:0:70}..."
 else echo "Offline"
 fi
 
