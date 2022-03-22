@@ -1,7 +1,7 @@
 <h1 align="center">My Dotfiles</h1>
 
 <p align="center">
-    <img src="https://github.com/irvanmalik48/Dotfiles/blob/master/screenshot/neofetch.png" alt="Neofetch" align="center"/>
+    <img src="https://www.irvanma.me/others/hero-logo.svg" alt="Neofetch" align="center" style="width:200px;height:200px"/>
 </p>
 
 <p align="center">
